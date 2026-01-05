@@ -14,4 +14,4 @@ document.addEventListener('DOMContentLoaded', function() {
         body.classList.toggle('dark-mode');
         localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
     });
-});
+}); 
